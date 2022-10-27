@@ -28,6 +28,8 @@ import com.example.belajar1.ui.theme.Belajar1Theme
 class HelloYasmin : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val warnaFont = 0xff4b1263
         setContent {
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
@@ -46,7 +48,7 @@ class HelloYasmin : ComponentActivity() {
                     Text(
                         text = "Hello Yasmin Siti Atifah",
                         fontSize = 24.sp,
-                        modifier = Modifier.padding(16.dp, 16.dp, 16.dp, 4.dp),
+                        modifier = Modifier.padding(16.dp, 16.dp, 16.dp, 16.dp),
                         color = DarkGray
                     ) }
 
